@@ -1,6 +1,5 @@
 
 import './App.css'
-// import Header from './components/Header'
 import Navbarr from './components/Navbarr'
 import ImageOne from './components/ImageOne';
 import ImageTwo from './components/ImageTwo';
