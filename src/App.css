@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: url('./images/pexels-photo-7033663.webp') rgba(0, 0, 0, 0.3); */
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* navbarr */
+.backnav {
+    background-color: rgba(252, 238, 240, 0.971);
+}
+
+.toalign {
+    align-items: center;
+}
+
+/* ImageOne */
+.paraimage {
+    position: relative;
+    height: 100vh;
+}
+
+/* header */
+.syne-tactile-regular {
+    font-family: "Syne Tactile", system-ui;
+    font-weight: 700;
+    font-size: 5em;
+    font-style: normal;
+
+}
+
+/* listItems */
+
+.productList {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+
+
+/* slide images */
+
+
+/* body {
+    background: #f2f2f2;
+} */
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    padding: 60px 0;
+    /* background: rgb(239, 213, 228); */
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:before {
+    left: 0;
+    /* background: linear-gradient(to left, rgba(255, 255, 255, 0), white); */
+}
+
+.logos:after {
+    right: 0;
+    /* background: linear-gradient(to right, rgba(255, 255, 255, 0), white); */
+}
+
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+    height: 40vh;
+    width: 30vw;
+    margin: 0 40px;
+    border-radius: 9px;
+}
+
+/* why us */
+
+.whyimg {
+    width: 6vw;
+
+}
+
+/* footer */
+.footercontainer {
+    background-color: rgb(243, 219, 223);
+    height: 250px;
+    padding-top: 60px;
+
+}
+
+.footerdetails a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.footerdetails a:hover {
+    color: rgb(241, 113, 134);
+
+}
+.footlinks{
+    color: black;
+    font-size: 30px;
+}
