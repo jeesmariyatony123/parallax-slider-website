@@ -25,11 +25,11 @@ const WhyUs = () => {
                     </div>
                 </Col>
                 <Col>
-                    <div className='d-flex'>
+                    <div className='d-flex' style={{paddingLeft:'7em'}}>
                         <img className='whyimg' src={why3} alt="" />
                         <h5 className=' pt-4'>Customised Donuts</h5>
                     </div>
-                    <div className='d-flex' style={{paddingTop:'3em'}}>
+                    <div className='d-flex' style={{paddingTop:'3em',paddingLeft:'7em'}}>
                         <img className='whyimg' src={why4} alt="" />
                         <h5 className=' pt-4'>Hygiene First</h5>
                     </div>
